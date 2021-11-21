@@ -8,7 +8,7 @@ function Home() {
                 <h4>Check the weather</h4>
             </div>
             <div className="home_container">
-                <form>
+                <form className="form">
 
                     <input type="text" placeholder="Enter your country"></input>
                     <button className="button">Search</button>
