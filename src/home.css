@@ -1,2 +1,22 @@
 .home {
 }
+body{
+    background: royalblue;
+}
+.home{
+    margin-left: 40%;
+    margin-top: 15%;
+}
+.button{
+    color: white;
+    background-color: tomato;
+}
+.sub_line{
+    margin-left: 4%;
+}
+.home_container{
+    margin-left: 0%;
+}
+.form{
+    height: 500px;
+}
