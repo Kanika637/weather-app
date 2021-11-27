@@ -1,22 +1,99 @@
-.home {
+body {
+  background-image: url("https://i.pinimg.com/236x/0f/b3/ed/0fb3ed518f21570804238cef725ece1f.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-body{
-    background: royalblue;
+.font-link {
+  font-size: 70px;
+  margin-left: 550px;
+  margin-top: 30px;
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-family: "Nunito", sans-serif;
+  /* font-weight: 70px; */
 }
-.home{
-    margin-left: 40%;
-    margin-top: 15%;
+.detail {
+  display: flex;
+  flex-direction: row;
+  margin-left: 600px;
+  margin-top: 50px;
 }
-.button{
-    color: white;
-    background-color: tomato;
+.input {
+  border-style: solid;
+  box-sizing: border-box;
+  /* height: 20px; */
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: -100px;
+  padding-left: 20px;
+  font-size: 15px;
 }
-.sub_line{
-    margin-left: 4%;
+.button {
+  border-radius: 10px;
+  color: black;
+  background-color: turquoise;
+  box-sizing: border-box;
+  height: 50px;
+  width: 100px;
+  font-size: 16px;
+  margin-left: 30px;
 }
-.home_container{
-    margin-left: 0%;
+/* .image{
+margin-left: 630px;
+margin-top: 30px;
+} */
+
+.icon_series {
+  margin-left: 600px;
+  margin-top: 50px;
 }
-.form{
-    height: 500px;
+.i_1 {
+  height: 90px;
+  width: 90px;
+  margin-right: 30px;
+  transition: transform 0.2s;
+}
+.i_2 {
+  height: 90px;
+  width: 90px;
+  margin-right: 30px;
+  transition: transform 0.2s;
+}
+.i_3 {
+  height: 90px;
+  width: 90px;
+  margin-right: 30px;
+  transition: transform 0.2s;
+}
+.i_4 {
+  height: 90px;
+  width: 90px;
+  margin-right: 30px;
+  transition: transform 0.2s;
+}
+.i_5 {
+  height: 90px;
+  width: 90px;
+  margin-right: 30px;
+  transition: transform 0.2s;
+}
+.icon_series {
+  margin-left: 500px;
+  margin-top: 70px;
+  transition: transform 0.2s;
+}
+.i_1:hover {
+  transform: scale(1.5);
+}
+.i_2:hover {
+  transform: scale(1.5);
+}
+.i_3:hover {
+  transform: scale(1.5);
+}
+.i_4:hover {
+  transform: scale(1.5);
+}
+.i_5:hover {
+  transform: scale(1.5);
 }
